@@ -1,0 +1,25 @@
+#set($layout="layout/default_help.vm")
+#set($menu="help")
+#set($bar="logs")
+<div class="container logsmain">
+  <div class="row">
+	<div class="col-md-12" role="main">
+
+      <div class="bs-docs-section">
+      	<h1 class="page-header">变更日志</h1>
+        <h2>
+        	2016-4-21 更新
+        </h2>
+        <ol>
+        	<li>新增了新手引导页。API文档介绍</li>
+            <li>优化策略页面细节，为您带来更极致的研究体验。</li>
+            <li>新增加了策略代码生成器 <span class="na">详情请见新手引导</span> 。</li>
+            <li>修复quanti中benchmark历史行情数据的 <code>以年为时间单位</code> 的数据截断问题，推荐使用 <code>策略代码生成器</code>生成代码 。</li>
+        </ol>
+        
+        
+      </div>
+	</div>
+  </div>
+</div><!-- /.container -->
+    
